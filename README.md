@@ -162,6 +162,13 @@ npm run backend   # 仅启动后端
 npm run frontend  # 仅启动前端
 ```
 
+#### 4. 双击 Windows 快捷启动器（新增！）
+
+为了在 Windows 上更简单地运行与分享该项目，我们在根目录中内置了预配置的批处理启动文件：
+
+* **`run_mirofish.bat`**: 直接双击此脚本（或在终端运行 `.\run_mirofish.bat`）即可一键启动前端和后端服务，并自动在默认浏览器中打开应用：`http://localhost:3000`。
+* **`share_mirofish.bat`**: 直接双击此脚本（或在终端运行 `.\share_mirofish.bat`）不仅可一键启动服务，还能自动生成一个 **100% 免费的公网隧道 (localtunnel)**。只需复制终端中生成的公网链接（如 `https://xxxx.loca.lt`）分享给你的朋友，他们就能在任何地方（手机或电脑）直接访问！在引导页输入他们自己的 API Key 运行仿真，**你无需承担任何服务器或 API 密钥的费用**！
+
 ### 二、Docker 部署
 
 ```bash

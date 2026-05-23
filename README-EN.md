@@ -162,6 +162,13 @@ npm run backend   # Start backend only
 npm run frontend  # Start frontend only
 ```
 
+#### 4. Double-Click Windows Launchers (New!)
+
+To make running and sharing easier on Windows, we've provided pre-configured batch launchers in the root folder:
+
+* **`run_mirofish.bat`**: Double-click this launcher (or run `.\run_mirofish.bat` in your terminal) to automatically start both the frontend and backend servers concurrently, and immediately open the application in your default web browser at `http://localhost:3000`.
+* **`share_mirofish.bat`**: Double-click this launcher (or run `.\share_mirofish.bat` in your terminal) to start the servers and instantly generate a **100% Free Public sharing tunnel** using localtunnel. Simply copy the generated public URL (e.g. `https://xxxx.loca.lt`) and share it with your friends! They can open it on their phones or computers, type in their own LLM API keys on the landing page, and run simulations on your machine—**completely free of cost to you**!
+
 ### Option 2: Docker Deployment
 
 ```bash
